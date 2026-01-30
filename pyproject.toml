@@ -1,0 +1,14 @@
+[project]
+name = "image-set-distiller"
+version = "0.1.0"
+description = "Turn raw image dumps into curated collections by removing blurry shots and near-duplicates"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.4.1",
+    "pillow>=12.1.0",
+    "scikit-learn>=1.8.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "tqdm>=4.67.1",
+]
